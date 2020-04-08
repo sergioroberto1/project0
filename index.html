@@ -2,23 +2,40 @@
 <html>
     <head>
         <title>INFOGEO</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <style>
             button {
                 width: 200px;
                 height: 100px;
-                font-size: 24px;
+                font-size: 21px;
                 background-color: azure;
-                border-radius: 25px;
+                border-radius: 45px;
             }
 
             button:hover {
-                background-color: blue;
-
+                background-color: red;
              }
 
              #botones {
-                margin: 40px
+                margin: 40px;
+                text-align:center;
             }
+
+            #intro {
+                text-align:center;
+            }
+
+            #noticia {
+                margin-left: 200px;
+                margin-right: 200px;
+                border: 1px solid black;
+                padding: 15px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                align-self: center;
+            }
+
 
         </style>
     </head>
@@ -32,9 +49,31 @@
         </div>
 
         <div id="botones">
-          <button><a href="camino.html"  style="color:black">IDENTIFICAR CAMINO</a></button>
+          <button><a href="persona.html" style="color:black">IDENTIFICAR PERSONAS</a></button>
           <br> </br>
-          <button><a href="zona.html" style="color:black">IDENTIFICAR ZONA</button>
+          <button><a href="camino.html"  style="color:black">IDENTIFICAR SITIOS</a></button>
+          <br> </br>
+          <button><a href="zona.html" style="color:black">IDENTIFICAR ZONAS</a></button>
+        </div>
+
+        <div id="noticia">
+
+          <h5> <u><b>Sobre el monitoreo</u></b> </h5>
+          <p class="text-justify"> INFOGEO analiza los patrones de dezplazamiento de las personas con el fin de prevenir la transmisión de virus como el COVID-19.
+
+            <br>Analizar los desplazamientos de las personas es una de las cinco acciones recomendadas para prevenir la transimisión del virus. Las otras cuatro acciones son: (1) comunicar a la población prácticas de higiene de prevención, (2) establecer políticas de distanciamiento social, (3) "aislar" temporalmente a las personas contagiadas, y (4) realizar pruebas de diagnóstico.</br>
+
+            <br>Los desplazamientos de las personas tienen tres dimensiones temporales: el pasado, el presente, y el futuro.</br></p>
+
+            <b>Análisis del pasado inmediato</b>
+            <p class="text-justify">INFOGEO identifica los lugares donde una persona ha estado en las últimas semanas. Asimismo, si la información está disponible, INFOGEO analiza los patrones de movimiento de una persona hasta cinco años atrás.</p>
+
+            <b>Análisis del presente</b>
+            <p class="text-justify">INFOGEO facilita la implementación de acciones de CONTACT TRACING, que permiten identificar donde se encuentra la persona y con quién ha interactuado. Utliza una combinación de herramientas tecnológicas como SAFEPATH, y ARCGIS. Si una autoridad de salud promueve políticas de CONTACT TRACING a nivel masivo, INFOGEO colabora en el análisis de los datos de ubicación y contacto generados.</p>
+
+            <b>Análisis del futuro</b>
+            <p class="text-justify">INFOGEO analiza los datos agregados de dezplazamiento para determinar zonas donde se puedan presentar brotes de un virus como el COVID-19. </p>
+
         </div>
 
     </body>
