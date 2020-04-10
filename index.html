@@ -8,18 +8,14 @@
         <style>
 
             @media (min-width: 500px) {
-              #noticia {
-                  background: white;
-                  text-align: justify;
-                }
+
+
+
             }
 
             @media (max-width: 499px) {
-              body {
-                  background: white;
-                  text-align: justify;
-                  text-justify: inter-character;
-                }
+
+
             }
 
             button {
@@ -51,11 +47,9 @@
                 padding-top: 20px;
                 padding-bottom: 15px;
                 font-size: 100%;
+                text-align: left;
             }
 
-            #texto-noticia {
-                font-size: 90%;
-            }
 
             a {
                 text-decoration:none;
@@ -73,7 +67,10 @@
       </div> -->
 
       <div class="header">
-          <img src="logo.jpg" alt="INFOGEO">
+        <picture>
+          <source srcset="logo.jpg" media="(min-width: 500px)">
+            <img src="logo_celular.jpg" alt="INFOGEO">
+        </picture>
       </div>
 
   <div class="p-2 mb-2 bg-danger text-white font-weight-bold text-left">
