@@ -35,3 +35,12 @@ iframe {
   padding-top: 0px;
   padding-bottom: 15px;
 }
+
+.publicación {
+    font-weight: bold;
+}
+
+.fecha_publicación {
+    font-weight: bold;
+    font-size: 80%;
+}
